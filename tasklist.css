@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: blue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  background-color: blue;
+  height: 200%;
+  width: 500px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  padding-top: 10px;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.task {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  padding-top: 10px;
+  font-weight: 500;
+  font-style: oblique;
+  margin-top: 9px;
+  opacity: 0;
+}
+
+span {
+  color: black;
+}
+.Add-task {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+  margin-left: 12px;
+  justify-content: space-around;
+}
+
+.Add-task input {
+  width: 214px;
+  height: 45px;
+  border: none;
+  border-radius: 7px;
+  padding-left: 7px;
+  font-size: 17px;
+  background-color: white;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Add-task button {
+  background-color: black;
+  height: 45px;
+  vertical-align: top;
+  font-style: oblique;
+  border: none;
+  width: 95px;
+  color: white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.divs {
+  display: flex;
+  transition: 1s;
+  justify-content: space-around;
+  margin-left: 12px;
+}
+
+.h3-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+  background-color: white;
+  font-size: 18px;
+  font-style: oblique;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 350px;
+  border-radius: 3px;
+  animation-name: animated;
+  animation-duration: 20s;
+  transition: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-delay: 4s;
+}
+
+@keyframes animated {
+  0% {
+    color: black;
+  }
+
+  10% {
+    color: black;
+  }
+  20% {
+    color: rgb(74, 0, 105);
+  }
+  30% {
+    color: black;
+  }
+  40% {
+    color: black;
+  }
+
+  50% {
+    color: red;
+  }
+  70% {
+    color: darkgreen;
+  }
+
+  80% {
+    color: transparent;
+  }
+  90% {
+    color: orangered;
+  }
+  95% {
+    color: blue;
+  }
+  100% {
+    color: gold;
+  }
+}
